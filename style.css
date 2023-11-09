@@ -9,11 +9,14 @@
 a {
   text-decoration: none;
 }
+.background {
+  background: url(img/bg.png);
+  background-size: cover;
+}
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(img/bg.png);
-  background-size: cover;
+  
 }
 nav {
   display: flex;
@@ -106,4 +109,7 @@ nav ul li a:hover:after {
   color: #202020;
   margin-top: 25px;
   margin-bottom: 30px;
+}
+#contact {
+  text-align: center ;
 }
